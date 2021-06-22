@@ -1,0 +1,113 @@
+@import url(../css/reset.css);
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    margin-top: 14px;
+}
+.navbar-horário{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    padding-left: 21px;
+}
+.navbar__image{
+    margin-right: 15px;
+}
+.navbar__image :nth-child(2){
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.menssage-icon{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.35);
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfil{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 94px;
+}
+.perfil-photo{
+    Width: 80px;
+    Height: 80px;
+    border-radius: 50%;
+}
+.perfil__name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    padding-top: 13px;
+}
+.perfil__call{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-top: 4px;
+}
+.call-options{
+    margin-top: 356px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.separação{
+    margin-left: 33px;
+    margin-right: 33px;
+}
+.call-options__circle{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cor-vermelha{
+    background: #FE294D;
+}
+.barra-branca{
+    width: 134px;
+    height: 5px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 11px;
+    margin-left: 95px;
+}
+.ligação{
+    display: flex;
+    justify-content: space-between;
+}
+#chamada-image{
+    margin-left: 33px;
+}
+#divisão{
+    margin-left: 33px;
+    margin-right: 33px;
+}
+.wallpapel-chamada{
+    background-image: url(../imagens/Call.png);
+    background-size: cover;
+}
+.wallpapel-chamada-vídeo{
+    background-image: url(../imagens/Call\ de\ vídeo.png);
+    background-size: cover;
+}
